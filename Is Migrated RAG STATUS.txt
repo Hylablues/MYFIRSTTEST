@@ -1,0 +1,53 @@
+0	Is Migrated			
+				
+110	Booked on Past			
+120	Not Planned		
+130	Plan on Past & Not Booked		
+				
+210	Plan on Past & Booked On Future		
+220	Plan on Present & Not Booked		
+230	Plan on Present & Booked On Future & Booked After Plan
+240	Plan on Future & Booked On Future & Booked After Plan
+				
+				
+310	Plan on Present & Booked On Future & Booked In Plan
+320	Plan on Future & Not Booked		
+330	Plan on Future & Booked On Future & Booked In Plan
+
+
+LEGEND
+
+MIGRATED
+Devices Migrated (Process=5.0 BAU).
+
+LATE
+(1) Migration Slot is in the past
+
+(2) Site Migration Window not planned (Site Start and End Dates are not defined)
+
+(3) Site Migration Window is in the past and Migration Slot is not present.
+
+AT RISK
+(1) Site Migration Window is in the past but Migration Slot it's in the future
+
+(2) Current Date is in the Migration Window and Migration Slot is not present
+
+(3) Current Date is in the Migration Window and Migration Slot is after Migration End Date
+
+(4) Current Date is before the Migration Window and Migration Slot is after Migration End Date
+
+IN PROGRESS
+
+(1) Current Date is in the Migration Window and Migration Slot is in the future but before Migration End Date
+
+(2) Current Date is before the Migration Window and Migration Slot is not present
+
+(3) Current Date is before the Migration Window and Migration Slot is in the future but before Migration End Date
+
+
+
+
+
+
+
+
